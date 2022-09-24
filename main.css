@@ -1,0 +1,85 @@
+body {
+    background-color: black;
+    font-family:cursive;
+    font-size: 25px;
+    color:gray;
+}
+
+.title {
+    text-align: center;
+    color: gray;
+    margin-top: 0px;
+}
+
+.nt {
+    font-size: 20px;
+    text-align: center;
+}
+
+.container {
+    position: flex;
+    margin-top: 50px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 700px;
+    height: 530px;
+    margin: auto;
+    box-shadow: 0px 0px 20px antiquewhite;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: gray;
+}
+.containercima {
+    position: flex;
+    margin-top: 50px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 690px;
+    height: 520px;
+    margin: auto;
+    box-shadow: 0px 0px 20px antiquewhite;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color:black;
+}
+
+input {
+    width: 400px;
+    height: 15px;
+    padding: 5px;
+    background-color:cornsilk;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    border-radius: 10px;
+}
+input:hover {
+    background-color:grey;
+    transition: 7s;
+}
+
+h3 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+#calcular {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#calcular:hover {
+    background-color: gray;
+    transition: 1s;
+}
+
+.cor {
+    padding: 0px;
+}
